@@ -1,0 +1,51 @@
+<style>
+    @import url("style.css")
+        .container {
+                
+        }
+        .wrapper {
+            position: relative;
+            overflow: auto;
+        }
+        .smallwrapper{
+            position: relative;
+            overflow: auto;
+        }
+
+        #header{
+            border:1px solid black; 
+            padding:5px; 
+            height:80px; 
+            font-size:40px; 
+            text-align:center;
+            margin-bottom: 5px;
+        }
+            
+        #sidebar{
+            border:1px solid black;
+            float:left;
+            width:150px;
+            height:980px;
+            padding:10px;
+            margin-right:10px;
+        }
+            
+        #topSection{
+            border:1px solid black;
+            font-size:150%; 
+            height: 379px;
+            overflow: auto;
+            padding: 10px;
+        }
+            
+        #bottomSection{
+            border:1px solid black;
+            font-size:150%; 
+            padding: 10px;
+            height: 579px;
+        }
+
+        .InputRGB{
+            width:25px;
+        }
+</style>
